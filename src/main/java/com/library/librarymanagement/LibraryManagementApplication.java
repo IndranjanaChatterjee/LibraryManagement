@@ -2,10 +2,13 @@ package com.library.librarymanagement;
 
 import com.library.librarymanagement.service.BookService;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
+@EnableAspectJAutoProxy
 public class LibraryManagementApplication {
 
 	public static void main(String[] args) {
