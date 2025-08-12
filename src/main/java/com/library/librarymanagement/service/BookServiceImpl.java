@@ -12,7 +12,11 @@ public class BookServiceImpl implements BookService{
     @Autowired
     public BookRepository bookRepository;
 
-
+    public void setBookRepository(BookRepository
+                                  bookRepository)
+    {
+        this.bookRepository=bookRepository;
+    }
 
 
 
